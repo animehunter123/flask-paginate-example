@@ -3,8 +3,16 @@ from flask_paginate import Pagination, get_page_parameter
 
 app = Flask(__name__)
 
-@app.route('/results')
-def results():
+@app.route('/results/<site>')
+def results(site):
+    print('site', site)
+    #print('path', request.path)
+    #print('full_path', request.full_path)
+    #print('script_root', request.script_root)
+    #print('base_url', request.base_url)
+    #print('url', request.url)
+    #print('url_root', request.url_root)
+
     # Generate some example results (in this case, just strings from 'A' to 'Z')
     results = list(map(chr, range(ord('A'), ord('Z')+1)))
     
