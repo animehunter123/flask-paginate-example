@@ -1,0 +1,12 @@
+# VSCode Debugger
+.vscode
+
+# My Custom Git Garbage
+.git.*
+
+# Python Cachse
+__pycache__
+
+# SQLite stuff
+migrations 
+data.sqlite

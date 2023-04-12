@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        {% if current_user.is_authenticated %}
+            <p>Hello, {{current_user.username}}. You are currently logged in.</p>
+        {% else %}
+            <p>Please login or register -- in order to see the Results Page in the Navbar!</p>            
+        {% endif %}
+    </div>
+{% endblock %}
