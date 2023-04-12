@@ -27,3 +27,4 @@ Now click Register, make a login, and login... and the Results link will appear
 Click Results and a paginated (5 random letters per page) list will appear!!!
 ```
 
+![image](https://user-images.githubusercontent.com/42163211/231369020-d68c45b3-e1c2-491f-9e10-bcd564bbf615.png)
